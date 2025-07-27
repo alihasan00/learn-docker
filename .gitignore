@@ -1,2 +1,40 @@
 /node_modules
 /package-lock.json
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environments
+env/
+.venv/
+venv/
+ENV/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Docker
+*.log
+dist/
+build/
+
+# uv lock file
+uv.lock
+
+# Misc
+*.swp
+*.swo
+.idea/
+
+# Ignore local test output
+htmlcov/
+.coverage
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
